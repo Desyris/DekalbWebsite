@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner-header {
+	width: 100%;
+	min-width: 50%;
+	height: 40px;
+	margin-left: 175px;
+	background-color: rgba(0,171,255,0.46);
+	
+}
+
+body div nav ul li, body div nav ul li a{
+		color: white;
+		text-transform: uppercase;
+		text-decoration: none;
+		list-style-type: none;
+		display: inline;
+		font-family: "Helvetica Neue LT Com 63 Thin", Helvetica, Arial, sans-serif;
+		line-height: 40px;
+		font-weight: 600;
+		font-size: 23px;
+}
+
+body div nav ul li:hover, body div nav ul li a:hover {
+	cursor: default;
+}
+
+body,html {
+	/* background: #71B5E3 url('Http://www.dekalb.k12.ga.us/images/_backgrounds/body.png') top center repeat-x ; */
+	background: url(../images/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/	
+}
+
+#logo-header {
+	width: 175px;
+	height: 124px;
+	margin-top: -40px;
+	background-color:  rgba(0,171,255,0.46);
+}
+
+#logo {
